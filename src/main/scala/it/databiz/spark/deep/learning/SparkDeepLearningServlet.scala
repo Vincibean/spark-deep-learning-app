@@ -6,7 +6,7 @@ class SparkDeepLearningServlet extends DeepLearningOnApacheSparkMnistStack {
 
   get("/") {
     contentType = "text/html"
-    ssp("index", "title" -> "MNIST")
+    ssp("index", "title" -> "")
   }
 
 }
